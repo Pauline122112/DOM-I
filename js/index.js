@@ -51,3 +51,9 @@ const removeLink = document.querySelector('script, src')
 console.log(removeLink)
 removeLink.parentNode.removeChild(removeLink)
 console.log(removeLink)
+
+//Updating Anchor Tags
+const upLink = document.querySelector('a')
+upLink.setAttribute('href', '#')
+upLink.textContent = 'Sessions'
+console.log(upLink)
