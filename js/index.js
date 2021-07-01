@@ -102,10 +102,17 @@ firstImage.src = 'img/header-img.png'
 console.log(firstImage)
 
 //Update main-content
-const featuresTitle = document.querySelector(' text-content, h4')
+const featuresTitle = document.querySelectorAll(' text-content, h4')[0]
 featuresTitle.textContent = 'Features'
 console.log(featuresTitle)
 
-const paraContent = document.querySelector('text-content, p')
+const paraContent = document.querySelectorAll('text-content, p')[0]
 paraContent.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 console.log(paraContent)
+//About Content
+const aboutTitle = document.querySelectorAll('.text-content, h4')[3]
+aboutTitle.textContent = 'About'
+console.log(aboutTitle)
+const aboutContent = document.querySelectorAll('text.content, p')[1]
+aboutContent.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+console.log(aboutContent)
