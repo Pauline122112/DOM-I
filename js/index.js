@@ -109,10 +109,16 @@ console.log(featuresTitle)
 const paraContent = document.querySelectorAll('text-content, p')[0]
 paraContent.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 console.log(paraContent)
+
 //About Content
 const aboutTitle = document.querySelectorAll('.text-content, h4')[3]
 aboutTitle.textContent = 'About'
 console.log(aboutTitle)
+
 const aboutContent = document.querySelectorAll('text.content, p')[1]
 aboutContent.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 console.log(aboutContent)
+
+const secondImage = document.querySelector('#middle-img')
+secondImage.src = 'img/mid-page-accent.jpg'
+console.log(secondImage)
