@@ -73,12 +73,12 @@ threeLink.setAttribute('href', '#')
 threeLink.textContent = 'Features'
 console.log(threeLink)
 
-//  const twoLink = document.querySelectorAll('a')[2]
-// twoLink.setAttribute('href', '#')
-// twoLink.textContent = 'Vision'
-// console.log(twoLink)
+ const fourLink = document.querySelectorAll('a')[4]
+fourLink.setAttribute('href', '#')
+fourLink.textContent = 'About'
+console.log(fourLink)
 
-//  const twoLink = document.querySelectorAll('a')[2]
-// twoLink.setAttribute('href', '#')
-// twoLink.textContent = 'Vision'
-// console.log(twoLink)
+ const fiveLink = document.querySelectorAll('a')[5]
+fiveLink.setAttribute('href', '#')
+fiveLink.textContent = 'Contact'
+console.log(fiveLink)
