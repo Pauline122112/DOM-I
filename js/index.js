@@ -89,3 +89,10 @@ const headCta = document.querySelector('h1')
 headCta.textContent = 'DOM Is Awesome'
 
 console.log(headCta)
+
+
+//Updating the cta button
+const butCta = document.querySelector('button')
+
+butCta.textContent = 'Get Started'
+console.log(butCta)
