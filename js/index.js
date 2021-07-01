@@ -119,6 +119,17 @@ const aboutContent = document.querySelectorAll('text.content, p')[1]
 aboutContent.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 console.log(aboutContent)
 
+//Updating second image content
 const secondImage = document.querySelector('#middle-img')
 secondImage.src = 'img/mid-page-accent.jpg'
 console.log(secondImage)
+
+
+//Services content- Bottom class
+const serviceTitle = document.querySelectorAll('.bottom-content, .text-content, h4')[6]
+serviceTitle.textContent = 'Services'
+console.log(serviceTitle)
+
+const serContent = document.querySelectorAll('p')[2]
+serContent.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+console.log(serContent)
