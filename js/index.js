@@ -47,6 +47,7 @@ domTitle.textContent
 domTitle.textContent = 'Great Idea!'
 
 //Updating script to header
-const newLink = document.createElement('script')
-
-
+const removeLink = document.querySelector('script, src')
+console.log(removeLink)
+removeLink.parentNode.removeChild(removeLink)
+console.log(removeLink)
