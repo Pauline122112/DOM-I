@@ -133,3 +133,19 @@ console.log(serviceTitle)
 const serContent = document.querySelectorAll('p')[2]
 serContent.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 console.log(serContent)
+
+//Product Content- Bottom Class
+const prodTent = document.querySelectorAll('h4')[3]
+prodTent.textContent = 'Product'
+console.log(prodTent)
+
+const prodText = document.querySelectorAll('p')[3]
+prodText.textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis'
+console.log(prodText)
+
+//Vision Content - Bottom Class
+const visionary = document.querySelectorAll('h4')[4]
+visionary.textContent = 'Vision'
+
+const visText = document.querySelectorAll('p')[4]
+visText.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
