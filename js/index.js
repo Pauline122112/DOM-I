@@ -100,3 +100,12 @@ console.log(butCta)
 const firstImage = document.querySelector('#cta-img')
 firstImage.src = 'img/header-img.png'
 console.log(firstImage)
+
+//Update main-content
+const featuresTitle = document.querySelector(' text-content, h4')
+featuresTitle.textContent = 'Features'
+console.log(featuresTitle)
+
+const paraContent = document.querySelector('text-content, p')
+paraContent.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+console.log(paraContent)
