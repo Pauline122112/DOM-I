@@ -1,3 +1,4 @@
+
 const siteContent = {
   "nav": {
     "nav-item-1": "Services",
@@ -36,6 +37,9 @@ const siteContent = {
     "copyright" : "Copyright Great Idea! 2018"
   },
 };
+
+const domTitle = document.querySelector('title')
+console.log(domTitle)
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
