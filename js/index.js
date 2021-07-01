@@ -53,7 +53,32 @@ removeLink.parentNode.removeChild(removeLink)
 console.log(removeLink)
 
 //Updating Anchor Tags
-const upLink = document.querySelector('a')
-upLink.setAttribute('href', '#')
-upLink.textContent = 'Sessions'
-console.log(upLink)
+const indxLink = document.querySelector('a')
+indxLink.setAttribute('href', '#')
+indxLink.textContent = 'Services'
+ console.log(indxLink)
+
+ const oneLink = document.querySelectorAll('a')[1]
+oneLink.setAttribute('href', '#')
+oneLink.textContent = 'Product'
+console.log(oneLink)
+
+ const twoLink = document.querySelectorAll('a')[2]
+twoLink.setAttribute('href', '#')
+twoLink.textContent = 'Vision'
+console.log(twoLink)
+
+ const threeLink = document.querySelectorAll('a')[3]
+threeLink.setAttribute('href', '#')
+threeLink.textContent = 'Features'
+console.log(threeLink)
+
+//  const twoLink = document.querySelectorAll('a')[2]
+// twoLink.setAttribute('href', '#')
+// twoLink.textContent = 'Vision'
+// console.log(twoLink)
+
+//  const twoLink = document.querySelectorAll('a')[2]
+// twoLink.setAttribute('href', '#')
+// twoLink.textContent = 'Vision'
+// console.log(twoLink)
