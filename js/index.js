@@ -82,3 +82,10 @@ console.log(fourLink)
 fiveLink.setAttribute('href', '#')
 fiveLink.textContent = 'Contact'
 console.log(fiveLink)
+
+//Updating cta section
+
+const headCta = document.querySelector('h1')
+headCta.textContent = 'DOM Is Awesome'
+
+console.log(headCta)
