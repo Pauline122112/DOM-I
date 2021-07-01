@@ -37,10 +37,16 @@ const siteContent = {
     "copyright" : "Copyright Great Idea! 2018"
   },
 };
-
-const domTitle = document.querySelector('title')
-console.log(domTitle)
-
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+//Updated Title
+const domTitle = document.querySelector('title')
+console.log(domTitle)
+domTitle.textContent
+domTitle.textContent = 'Great Idea!'
+
+//Updating script to header
+const newLink = document.createElement('script')
+
+
