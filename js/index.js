@@ -93,6 +93,10 @@ console.log(headCta)
 
 //Updating the cta button
 const butCta = document.querySelector('button')
-
 butCta.textContent = 'Get Started'
 console.log(butCta)
+
+//Update cta Image
+const firstImage = document.querySelector('#cta-img')
+firstImage.src = 'img/header-img.png'
+console.log(firstImage)
