@@ -150,13 +150,22 @@ visionary.textContent = 'Vision'
 const visText = document.querySelectorAll('p')[4]
 visText.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 
-//Section contact update
-const contactTitle = document.querySelectorAll('h4')[5]
-contactTitle.textContent = 'Contact'
-console.log(contactTitle)
+//Section contact update h4
+const conTitle = document.querySelector('.contact h4')
+conTitle.textContent = siteContent.contact['contact-h4']
+console.log(conTitle)
 
-const locate = document.querySelectorAll('p')[5]
-const lineBreak = document.createElement('br')
-console.log(locate)
-locate.appendChild(lineBreak)
 
+//section p- address, email, phone number
+
+const paraSection = document.querySelectorAll('.contact p')
+paraSection[0].textContent = siteContent.contact.address
+paraSection[1].textContent = siteContent.contact.phone
+paraSection[2].textContent = siteContent.contact.email
+console.log(paraSection)
+
+//footer
+
+const textFooter = document.querySelectorAll('footer p')
+textFooter[0].textContent = siteContent.footer.copyright
+console.log(textFooter)
