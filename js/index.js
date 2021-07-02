@@ -149,3 +149,14 @@ visionary.textContent = 'Vision'
 
 const visText = document.querySelectorAll('p')[4]
 visText.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+
+//Section contact update
+const contactTitle = document.querySelectorAll('h4')[5]
+contactTitle.textContent = 'Contact'
+console.log(contactTitle)
+
+const locate = document.querySelectorAll('p')[5]
+const lineBreak = document.createElement('br')
+console.log(locate)
+locate.appendChild(lineBreak)
+
