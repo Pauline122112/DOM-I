@@ -7,6 +7,8 @@ const siteContent = {
     "nav-item-4": "Features",
     "nav-item-5": "About",
     "nav-item-6": "Contact",
+    "nav-item-7": "End",
+    "nav-item-8": "Beginning",
     "img-src": "img/logo.png"
   },
   "cta": {
@@ -93,6 +95,18 @@ fiveLink.setAttribute('href', '#')
 fiveLink.textContent = 'Contact'
 console.log(fiveLink.style.color = 'green')
 
+//two new nav items 
+const sixLink = document.createElement('a')
+sixLink.textContent = 'End'
+sixLink.href = '#'
+document.querySelector('nav').appendChild(sixLink)
+console.log(sixLink.style.color = 'green')
+
+const sevLink = document.createElement('a')
+sevLink.textContent = 'Beginning'
+sevLink.href = '#'
+document.querySelector('nav').prepend(sevLink)
+console.log(sevLink.style.color = 'green')
 //Updating cta section
 
 const headCta = document.querySelector('h1')
