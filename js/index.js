@@ -53,35 +53,45 @@ removeLink.parentNode.removeChild(removeLink)
 console.log(removeLink)
 
 //Updating Anchor Tags
+// const navLinks = document.querySelectorAll('a href')
+// navLinks[0].textContent = siteContent.nav.nav-item-1
+// navLinks[1].textContent = siteContent.nav.nav-item-2
+// navLinks[2].textContent = siteContent.nav.nav-item-3
+// navLinks[3].textContent = siteContent.nav.nav-item-4
+// navLinks[4].textContent = siteContent.nav.nav-item-5
+// navLinks[5].textContent = siteContent.nav.nav-item-6
+// console.log(navLinks)
+
+
 const indxLink = document.querySelector('a')
 indxLink.setAttribute('href', '#')
 indxLink.textContent = 'Services'
- console.log(indxLink)
+ console.log(indxLink.style.color = 'green')
 
  const oneLink = document.querySelectorAll('a')[1]
 oneLink.setAttribute('href', '#')
 oneLink.textContent = 'Product'
-console.log(oneLink)
+console.log(oneLink.style.color = 'green')
 
  const twoLink = document.querySelectorAll('a')[2]
 twoLink.setAttribute('href', '#')
 twoLink.textContent = 'Vision'
-console.log(twoLink)
+console.log(twoLink.style.color = 'green')
 
  const threeLink = document.querySelectorAll('a')[3]
 threeLink.setAttribute('href', '#')
 threeLink.textContent = 'Features'
-console.log(threeLink)
+console.log(threeLink.style.color = 'green')
 
  const fourLink = document.querySelectorAll('a')[4]
 fourLink.setAttribute('href', '#')
 fourLink.textContent = 'About'
-console.log(fourLink)
+console.log(fourLink.style.color = 'green')
 
  const fiveLink = document.querySelectorAll('a')[5]
 fiveLink.setAttribute('href', '#')
 fiveLink.textContent = 'Contact'
-console.log(fiveLink)
+console.log(fiveLink.style.color = 'green')
 
 //Updating cta section
 
@@ -169,3 +179,21 @@ console.log(paraSection)
 const textFooter = document.querySelectorAll('footer p')
 textFooter[0].textContent = siteContent.footer.copyright
 console.log(textFooter)
+
+const colorNav = document.createElement('a')
+
+// //green colored nav
+// for(let i = 0; i < nav.length; i++) {
+//   nav[i].textContent = siteContent = siteContent.nav['nav-item-${i + 1}']
+// } 
+
+
+// navImg.setAttribute('src', siteContent.nav['img-src'])
+// navItems.forEach((element) => {
+//   element.style.color = 'green'
+// })
+
+// colorNav.textContent = 'Contribute'
+// colorNav.href = 'a'
+
+// console.log(colorNav)
