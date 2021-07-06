@@ -110,14 +110,20 @@ console.log(sevLink.style.color = 'green')
 //Updating cta section
 
 const headCta = document.querySelector('h1')
-headCta.textContent = 'DOM Is Awesome'
-
+headCta.innerHTML = 'DOM' + '<br />' + 'Is' + '<br />' + 'Awesome'
 console.log(headCta)
+
+
+
+const moveText = document.querySelector('.cta .cta-text')
+moveText.style.paddingRight = '10%'
+console.log(moveText)
 
 
 //Updating the cta button
 const butCta = document.querySelector('button')
 butCta.textContent = 'Get Started'
+butCta.style.paddingRight = 
 console.log(butCta)
 
 //Update cta Image
@@ -196,18 +202,5 @@ console.log(textFooter)
 
 const colorNav = document.createElement('a')
 
-// //green colored nav
-// for(let i = 0; i < nav.length; i++) {
-//   nav[i].textContent = siteContent = siteContent.nav['nav-item-${i + 1}']
-// } 
-
-
-// navImg.setAttribute('src', siteContent.nav['img-src'])
-// navItems.forEach((element) => {
-//   element.style.color = 'green'
-// })
-
-// colorNav.textContent = 'Contribute'
-// colorNav.href = 'a'
-
-// console.log(colorNav)
+// //nav hover
+// const hovNav = document.querySelector('header nav a')
